@@ -1,27 +1,33 @@
 {
-    "author": "henryhuang <h1886@outlook.com> (http://huangyijie.com/)",
-    "bin": {
-        "timestamp-ng": "./bin/cli.js"
-    },
-    "dependencies": {
-        "chalk": "^1.1.3",
-        "deep-extend": "^0.4.1",
-        "moment": "^2.16.0",
-        "yargs": "^6.4.0"
-    },
-    "description": "A tool for showing timestamp.",
-    "homepage": "https://github.com/henryhuang/timestamp-ng",
-    "keywords": [
-        "timestamp",
-        "command",
-        "date"
-    ],
-    "license": "MIT",
-    "main": "index.js",
-    "name": "timestamp-ng",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:henryhuang/timestamp-ng.git"
-    },
-    "version": "0.1.0"
+  "author": "henryhuang <h1886@outlook.com> (http://huangyijie.com/)",
+  "bin": {
+    "timestamp-ng": "./bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "deep-extend": "^0.4.1",
+    "moment": "^2.16.0",
+    "yargs": "^6.4.0"
+  },
+  "description": "A tool for showing timestamp.",
+  "homepage": "https://github.com/henryhuang/timestamp-ng",
+  "keywords": [
+    "timestamp",
+    "command",
+    "date"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "timestamp-ng",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:henryhuang/timestamp-ng.git"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
 }
