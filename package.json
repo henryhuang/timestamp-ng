@@ -16,7 +16,7 @@
     "command",
     "date"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "name": "timestamp-ng",
   "repository": {

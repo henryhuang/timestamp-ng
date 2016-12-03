@@ -65,5 +65,5 @@ options default:
 
 ## License
 
-[ISC](LICENSE.md)
+[MIT](LICENSE)
 
