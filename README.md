@@ -20,6 +20,7 @@ A tool for showing timestamp.
 ```
 
 $ npm install timestamp-ng -g
+
 ```
 
 ## Usage
@@ -27,7 +28,7 @@ $ npm install timestamp-ng -g
 ### For command line
 
 ```
-Usage: timestamp-ng [options]
+Usage: tsn [options]
 
 Options:
   -d, --date_string       the date string
@@ -38,9 +39,9 @@ Options:
   -v, --version           Show version number                          [boolean]
 
 Examples:
-  timestamp-ng
-  timestamp-ng -d 20161121
-  timestamp-ng -d 2016-11-21 -f YYYY-MM-DD
+  tsn
+  tsn -d 20161121
+  tsn -d 2016-11-21 -f YYYY-MM-DD
 ```
 
 ### For Node API
