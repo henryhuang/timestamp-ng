@@ -3,7 +3,7 @@
   "binName": "tsn",
   "author": "henryhuang <h1886@outlook.com> (http://huangyijie.com/)",
   "type": "module",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A tool for showing timestamp.",
   "bin": {
     "timestamp-ng": "./dist/bin/cli.js",
@@ -33,11 +33,12 @@
     "@types/node": "^20.12.8",
     "@types/yargs": "^17.0.32",
     "tape": "^5.7.5",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.8.2",
     "typescript": "^5.4.5"
   },
   "scripts": {
     "test": "tape ./test/*.js",
+    "local": "tsx ./src/bin/cli.ts",
     "build": "tsc"
   },
   "engines": {

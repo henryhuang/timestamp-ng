@@ -23,7 +23,7 @@ const tsng = (options) => {
     let ts = date.getTime().toString();
     // @ts-ignore
     if (options.show_date_string) {
-        ts = date + ': ' + ts;
+        ts = `${date}: ${ts}`;
     }
     return ts;
 };

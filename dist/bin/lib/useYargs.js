@@ -15,7 +15,8 @@ export default yargs
     },
     "f": {
         alias: "format",
-        describe: "the date string format, defined see http://momentjs.com/docs/#/parsing/string-format/"
+        describe: "the date string format, defined see http://momentjs.com/docs/#/parsing/string-format/",
+        default: "YYYY-MM-DD"
     },
     "s": {
         alias: "show_date_string",
